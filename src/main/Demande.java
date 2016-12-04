@@ -1,6 +1,5 @@
-package demandes;
+package main;
 
-import main.Hour;
 
 public class Demande {
 

@@ -1,7 +1,5 @@
-package departement;
+package main;
 import java.util.Collection;
-
-import modules.Module;
 
 
 public class Parcours {

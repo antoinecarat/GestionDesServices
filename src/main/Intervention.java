@@ -1,4 +1,4 @@
-package interventions;
+package main;
 
 public class Intervention {
 

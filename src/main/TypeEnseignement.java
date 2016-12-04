@@ -1,4 +1,4 @@
-package modules;
+package main;
 
 public enum TypeEnseignement {
 	CM,

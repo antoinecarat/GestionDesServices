@@ -1,5 +1,4 @@
-package modules;
-import main.Hour;
+package main;
 
 
 public class Enseignement {
