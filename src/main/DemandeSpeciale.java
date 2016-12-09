@@ -1,6 +1,6 @@
 package main;
 
 
-public class DemandeSpeciale extends Demande {
+public class DemandeSpeciale extends Souhait {
 
 }

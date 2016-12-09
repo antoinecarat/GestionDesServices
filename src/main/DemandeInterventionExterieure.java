@@ -1,7 +1,7 @@
 package main;
 
 
-public class DemandeInterventionExterieure extends Demande {
+public class DemandeInterventionExterieure extends Souhait {
 	
 	private String organisation;
 

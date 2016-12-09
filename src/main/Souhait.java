@@ -1,7 +1,7 @@
 package main;
 
 
-public class Demande {
+public abstract class Souhait {
 
 	private boolean publie;
 	private Hour heures;
