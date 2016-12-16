@@ -3,7 +3,7 @@ package departement;
 import enseignant.Hour;
 
 
-class Enseignement {
+public class Enseignement {
 
 	private Hour volume;
 	private TypeEnseignement type;

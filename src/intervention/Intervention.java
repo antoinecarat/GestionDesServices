@@ -2,7 +2,7 @@ package intervention;
 
 import misc.CasualValue;
 
-abstract class Intervention {
+public abstract class Intervention {
 
 	private CasualValue<String> volume;
 

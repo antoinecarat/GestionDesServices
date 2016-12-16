@@ -4,7 +4,7 @@ import misc.CasualValue;
 import enseignant.Hour;
 
 
-abstract class Souhait {
+public abstract class Souhait {
 
 	private CasualValue<Boolean> publie;
 	private CasualValue<Hour> heures;
