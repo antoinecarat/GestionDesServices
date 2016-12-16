@@ -1,8 +1,8 @@
-package main;
+package departement;
 import java.util.Collection;
 
 
-public class Module {
+class Module {
 	
 	private Collection<Enseignement> enseignements;
 

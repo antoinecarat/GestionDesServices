@@ -2,7 +2,7 @@ package main;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class ServerLauncher {
+class ServerLauncher {
 
 	public static void main(String[] args) {
 		

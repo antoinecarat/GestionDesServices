@@ -1,8 +1,10 @@
-package main;
+package departement;
 import java.util.Collection;
 
+import enseignant.Enseignant;
 
-public class Departement {
+
+class Departement {
 
 	private String nom;
 	private Collection<Enseignant> enseignants;

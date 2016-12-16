@@ -1,7 +1,9 @@
-package main;
+package departement;
+
+import enseignant.Hour;
 
 
-public class Enseignement {
+class Enseignement {
 
 	private Hour volume;
 	private TypeEnseignement type;

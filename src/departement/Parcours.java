@@ -1,8 +1,8 @@
-package main;
+package departement;
 import java.util.Collection;
 
 
-public class Parcours {
+class Parcours {
 
 	private Collection<Module> modules;
 

@@ -1,10 +1,12 @@
-package main;
+package enseignant;
+
+import misc.CasualValue;
 
 public class Enseignant {
 
 	private String nom;
 	private String prenom;
-	private String statut;
+	private CasualValue<String> statut;
 	
 	public String getNom() {
 		return nom;
@@ -23,11 +25,11 @@ public class Enseignant {
 	}
 	
 	public String getStatut() {
-		return statut;
+		return (this.statut.getValue());
 	}
 	
 	public void setStatut(String statut) {
-		this.statut = statut;
+		this.statut.setValue(statut);
 	}
 	
 	
