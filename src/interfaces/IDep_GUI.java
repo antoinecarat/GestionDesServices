@@ -19,7 +19,7 @@ public interface IDep_GUI {
 	Collection<Souhait> getSouhaitNonValides();
 	void validerSouhaits(Collection<Souhait> souhaits);
 	Collection<Souhait> getSouhaits(int year, String critere);
-	Collection<Intervention> getAffectations();
+	Collection<Intervention> getAffectations(int year, Intervention i);
 	void setAffectations(Enseignant e, Enseignement ens);
 	Collection<Souhait> publierConflits();
 }

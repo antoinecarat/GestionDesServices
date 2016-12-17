@@ -4,7 +4,7 @@ import java.util.Collection;
 import enseignant.Enseignant;
 
 
-class Departement {
+public class Departement {
 
 	private String nom;
 	private Collection<Enseignant> enseignants;
