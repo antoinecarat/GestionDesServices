@@ -8,6 +8,11 @@ public class Enseignant {
 	private String prenom;
 	private CasualValue<String> statut;
 	
+	public Enseignant(String nom, String prenom) {
+		this.nom = nom;
+		this.prenom = prenom;
+	}
+
 	public String getNom() {
 		return nom;
 	}

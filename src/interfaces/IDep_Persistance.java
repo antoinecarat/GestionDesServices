@@ -20,8 +20,9 @@ public interface IDep_Persistance {
 	void validerSouhaits(Collection<Souhait> souhaits);
 	Collection<Souhait> getSouhaits(int year, String critere);
 	Collection<Intervention> getAffectations(int year, String critere);
-	void setAffectations(Enseignant e, Enseignement ens);
-	Collection<Enseignement> getEnseignementsDispos();
-	Collection<Souhait> publierConflits();
-	Collection<Intervention> getInterventions(int year, String critere);
+	void setAffectations(Enseignant e, Enseignement ens, Intervention i);
+	Collection<Enseignement> getEnseignementsDispo();
+	Collection<Enseignement> getEnseignementsDispo(Collection<String> critere);
+	Collection<Souhait> publierSouhait();
+	Collection<Intervention> getInterventions(int year, Enseignant e);
 }

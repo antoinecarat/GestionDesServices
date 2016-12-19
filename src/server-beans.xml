@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<!-- bean id="dep_gui" class="implementation.Dep_GUI">
+</bean>
+
+<bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+    <property name="serviceName" value="Dep_GUI"/>
+    <property name="service" ref="dep_gui"/>
+    <property name="serviceInterface" value="interfaces.IDep_GUI"/>
+    <property name="replaceExistingBinding" value="true"></property>
+    <property name="registryPort" value="1099"/>
+</bean-->
+   
+<bean id="souhaitService" class="main.SouhaitServiceImpl">
+</bean>
+
+<bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+    <property name="serviceName" value="SouhaitService"/>
+    <property name="service" ref="souhaitService"/>
+    <property name="serviceInterface" value="main.SouhaitService"/>
+    <property name="replaceExistingBinding" value="true"></property>
+    <property name="registryPort" value="1099"/>
+</bean>
+   
+</beans>

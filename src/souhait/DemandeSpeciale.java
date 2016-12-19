@@ -2,6 +2,6 @@ package souhait;
 
 
 
-class DemandeSpeciale extends Souhait {
+public class DemandeSpeciale extends Souhait {
 
 }

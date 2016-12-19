@@ -4,12 +4,16 @@ import java.util.Collection;
 import enseignant.Enseignant;
 
 
-class Departement {
+public class Departement {
 
 	private String nom;
 	private Collection<Enseignant> enseignants;
 	private Collection<Parcours> parcours;
 	
+	public Departement(String nom) {
+		this.nom = nom;
+	}
+
 	public String getNom() {
 		return nom;
 	}
