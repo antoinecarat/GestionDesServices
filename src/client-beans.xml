@@ -13,9 +13,15 @@
 </bean>
 
 <bean id="depBean" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
+<<<<<<< HEAD
 		<!--property name="dep" value="implementation.Dep_Metier"></property-->
 		<!--property name="d" value="departement.Departement"></property-->
 		<!-- >property name="serviceUrl" value="rmi://localhost:1099/Dep_GUI"></property>
+=======
+		<property name="dep" value="implementation.Dep_Metier"></property>
+		<property name="d" value="departement.Departement"></property>
+		<property name="serviceUrl" value="rmi://localhost:1099/Dep_GUI"></property>
+>>>>>>> 3d471ae124b6d4267434b2e2ca89f2237e23ae26
 		<property name="serviceInterface" value="interfaces.IDep_GUI"></property>
 </bean-->
 

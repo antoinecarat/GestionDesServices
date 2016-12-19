@@ -9,10 +9,17 @@ public class Client {
 
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext("client-beans.xml");
+<<<<<<< HEAD
 		SouhaitService souhaitServ = (SouhaitService) context.getBean("wishBean");
 		
 		
 		/*faire des commandes qui publient des souhaits (à partir de je sais pas quoi! et c'est bien le (un des) problème)*/
+=======
+		SouhaitService souaitServ = (SouhaitService) context.getBean("wishBean");
+		
+		
+		
+>>>>>>> 3d471ae124b6d4267434b2e2ca89f2237e23ae26
 		
 		
 		

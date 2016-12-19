@@ -11,6 +11,7 @@ import souhait.Souhait;
 
 public class Dep_Metier implements IDep_Metier {
 	private Dep_Persistance dep;
+<<<<<<< HEAD
 	private Departement d;
 
 	public Dep_Metier(Dep_Persistance dep, Departement d) {
@@ -18,14 +19,28 @@ public class Dep_Metier implements IDep_Metier {
 		this.d = d;
 	}
 
+=======
+
+<<<<<<< HEAD
+	public Dep_Metier(Dep_Persistance dep) {
+		this.dep = dep;
+	}
+
+=======
+>>>>>>> fad776f4787d15aba8aec3c730713c0068da7a92
+>>>>>>> 3d471ae124b6d4267434b2e2ca89f2237e23ae26
 	@Override
 	public Collection<Souhait> getSouhaits() {
 		// TODO Auto-generated method stub
 		return dep.getSouhaits();
 	}
 
+<<<<<<< HEAD
 	//------------------------------------------------------------
 	//What's the use of Departement as an entry of methods/functions ??? 
+=======
+	//What's the use of Departement as a entry of methods ??? 
+>>>>>>> 3d471ae124b6d4267434b2e2ca89f2237e23ae26
 	//------------------------------------------------------------
 	@Override
 	public void validerVoeux(Collection<Souhait> voeux, Departement d) {
@@ -76,9 +91,15 @@ public class Dep_Metier implements IDep_Metier {
 	}
 
 	@Override
+<<<<<<< HEAD
 	public Collection<Intervention> getAffectations(int year, Intervention i, Departement d) {
 		// TODO Auto-generated method stub
 		return dep.getAffectations(year, i);
+=======
+	public Collection<Intervention> getAffectations(int year, String critere, Departement d) {
+		// TODO Auto-generated method stub
+		return dep.getAffectations(year, critere);
+>>>>>>> 3d471ae124b6d4267434b2e2ca89f2237e23ae26
 	}
 
 	@Override
@@ -110,9 +131,17 @@ public class Dep_Metier implements IDep_Metier {
 		// TODO Auto-generated method stub
 		return dep.publierSouhait();
 	}
+<<<<<<< HEAD
 	//------------------------------------------------------------
 
 	public Departement getDepartement(){
 		return this.d;
 	}
+=======
+<<<<<<< HEAD
+	//------------------------------------------------------------
+=======
+>>>>>>> fad776f4787d15aba8aec3c730713c0068da7a92
+
+>>>>>>> 3d471ae124b6d4267434b2e2ca89f2237e23ae26
 }

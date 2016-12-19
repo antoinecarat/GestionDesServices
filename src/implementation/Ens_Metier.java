@@ -9,13 +9,21 @@ import intervention.Intervention;
 import souhait.Souhait;
 
 public class Ens_Metier implements IEns_Metier {
+<<<<<<< HEAD
 	private Dep_Metier dep;
 	private Ens_Persistance ens;
 
+=======
+	//private Dep_Metier dep;
+	private Ens_Persistance ens;
+
+<<<<<<< HEAD
+>>>>>>> 3d471ae124b6d4267434b2e2ca89f2237e23ae26
 	public Ens_Metier(Ens_Persistance ens) {
 		this.ens = ens;
 	}
 
+<<<<<<< HEAD
 	@Override
 	public Collection<Intervention> getInterventions(int year, Enseignant e) {
 		// TODO Auto-generated method stub
@@ -26,6 +34,21 @@ public class Ens_Metier implements IEns_Metier {
 	@Override
 	public Collection<Enseignement> getEnseignementsDispo(Enseignant e) {
 		// TODO Auto-generated method stub
+=======
+=======
+>>>>>>> fad776f4787d15aba8aec3c730713c0068da7a92
+	//------------------------------------------------------------
+	@Override
+	public Collection<Intervention> getInterventions(int year, Enseignant e) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Collection<Enseignement> getEnseignementsDispo(Enseignant e) {
+		// TODO Auto-generated method stub
+		
+>>>>>>> 3d471ae124b6d4267434b2e2ca89f2237e23ae26
 		return null;
 	}
 	//------------------------------------------------------------

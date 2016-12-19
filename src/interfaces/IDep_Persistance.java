@@ -19,7 +19,11 @@ public interface IDep_Persistance {
 	Collection<Souhait> getSouhaitNonValides();
 	void validerSouhaits(Collection<Souhait> souhaits);
 	Collection<Souhait> getSouhaits(int year, String critere);
+<<<<<<< HEAD
 	Collection<Intervention> getAffectations(int year, Intervention i);
+=======
+	Collection<Intervention> getAffectations(int year, String critere);
+>>>>>>> 3d471ae124b6d4267434b2e2ca89f2237e23ae26
 	void setAffectations(Enseignant e, Enseignement ens, Intervention i);
 	Collection<Enseignement> getEnseignementsDispo();
 	Collection<Enseignement> getEnseignementsDispo(Collection<String> critere);
