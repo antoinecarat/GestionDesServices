@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- >bean id="depBean" class="implementation.Dep_GUI">
+	<property name="" value=""></property>
+</bean>
+
+<bean id="ensBean" class="implementation.Ens_GUI">
+	<property name="" value=""></property>
+	<property name="" value=""></property>
+</bean>
+
+<bean id="depBean" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
+		<!--property name="dep" value="implementation.Dep_Metier"></property-->
+		<!--property name="d" value="departement.Departement"></property-->
+		<!-- >property name="serviceUrl" value="rmi://localhost:1099/Dep_GUI"></property>
+		<property name="serviceInterface" value="interfaces.IDep_GUI"></property>
+</bean-->
+
+<bean id="wishBean" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
+		<property name="serviceUrl" value="rmi://localhost:1099/SouhaitService"></property>
+		<property name="serviceInterface" value="main.SouhaitService"></property>
+</bean>
+   
+</beans>

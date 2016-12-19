@@ -3,7 +3,7 @@ package souhait;
 import misc.CasualValue;
 
 
-class DemandeInterventionExterieure extends Souhait {
+public class DemandeInterventionExterieure extends Souhait {
 	
 	private CasualValue<String> organisation;
 

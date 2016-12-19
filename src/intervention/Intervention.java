@@ -6,6 +6,9 @@ public abstract class Intervention {
 
 	private CasualValue<String> volume;
 
+	public Intervention() {
+	}
+
 	public String getVolume() {
 		return (this.volume.getValue());
 	}

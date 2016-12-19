@@ -2,10 +2,18 @@ package souhait;
 
 import misc.CasualValue;
 
-class Voeu extends Souhait {
+public class Voeu extends Souhait {
 	
 	private CasualValue<Integer> preference;
 
+	public Voeu() {
+		this.preference = new CasualValue<Integer>();
+	}
+	public Voeu(CasualValue<Integer> p) {
+		this.preference = p;
+	}
+	
+	
 	public int getPreference() {
 		return (this.preference.getValue());
 	}		

@@ -1,6 +1,10 @@
 package misc;
 
-public class CasualValue<T> {
+import java.io.Serializable;
+
+public class CasualValue<T> implements Serializable{
+	private static final long serialVersionUID = 2468951375864851379L;
+	
 	private T value;
 	
 	public CasualValue(){
@@ -20,7 +24,7 @@ public class CasualValue<T> {
 	}
 	
 	boolean hasValue(){
-		return(this.value != null);
+		return (this.value != null);
 	}
 	
 
