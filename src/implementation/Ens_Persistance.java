@@ -9,9 +9,12 @@ import souhait.Souhait;
 
 public class Ens_Persistance implements IEns_Persistance {
 
+<<<<<<< HEAD
 	public Ens_Persistance() {
 	}
 
+=======
+>>>>>>> fad776f4787d15aba8aec3c730713c0068da7a92
 	@Override
 	public void emettreVoeu(Souhait voeu) {
 		// TODO Auto-generated method stub

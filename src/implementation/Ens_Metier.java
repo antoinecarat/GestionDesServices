@@ -12,10 +12,13 @@ public class Ens_Metier implements IEns_Metier {
 	//private Dep_Metier dep;
 	private Ens_Persistance ens;
 
+<<<<<<< HEAD
 	public Ens_Metier(Ens_Persistance ens) {
 		this.ens = ens;
 	}
 
+=======
+>>>>>>> fad776f4787d15aba8aec3c730713c0068da7a92
 	//------------------------------------------------------------
 	@Override
 	public Collection<Intervention> getInterventions(int year, Enseignant e) {

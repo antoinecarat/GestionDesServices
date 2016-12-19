@@ -12,10 +12,13 @@ import souhait.Souhait;
 public class Dep_Metier implements IDep_Metier {
 	private Dep_Persistance dep;
 
+<<<<<<< HEAD
 	public Dep_Metier(Dep_Persistance dep) {
 		this.dep = dep;
 	}
 
+=======
+>>>>>>> fad776f4787d15aba8aec3c730713c0068da7a92
 	@Override
 	public Collection<Souhait> getSouhaits() {
 		// TODO Auto-generated method stub
@@ -107,6 +110,9 @@ public class Dep_Metier implements IDep_Metier {
 		// TODO Auto-generated method stub
 		return dep.publierSouhait();
 	}
+<<<<<<< HEAD
 	//------------------------------------------------------------
+=======
+>>>>>>> fad776f4787d15aba8aec3c730713c0068da7a92
 
 }

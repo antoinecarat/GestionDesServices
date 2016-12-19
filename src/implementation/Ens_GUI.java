@@ -10,10 +10,13 @@ import souhait.Souhait;
 public class Ens_GUI implements IEns_GUI {
 	private Ens_Metier ens;
 
+<<<<<<< HEAD
 	public Ens_GUI(Ens_Metier ens) {
 		this.ens = ens;
 	}
 
+=======
+>>>>>>> fad776f4787d15aba8aec3c730713c0068da7a92
 	//------------------------------------------------------------
 	@Override
 	public Collection<Intervention> getInterventions(int year) {
