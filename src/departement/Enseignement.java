@@ -8,6 +8,11 @@ public class Enseignement {
 	private Hour volume;
 	private TypeEnseignement type;
 	
+	public Enseignement(Hour volume, TypeEnseignement type) {
+		this.volume = volume;
+		this.type = type;
+	}
+
 	public Hour getVolume() {
 		return volume;
 	}
