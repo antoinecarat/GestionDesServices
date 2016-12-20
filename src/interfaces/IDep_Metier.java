@@ -10,11 +10,7 @@ import souhait.Souhait;
 
 public interface IDep_Metier {
 
-<<<<<<< HEAD
 	Collection<Souhait> getSouhaits(Departement d);
-=======
-	Collection<Souhait> getSouhaits();
->>>>>>> dc9b8c6996991325a88fa8f619628ce88682ad22
 	void validerVoeux(Collection<Souhait> voeux, Departement d);
 	void affecter(Souhait s, Departement d);
 	void affecter(Enseignant e, Enseignement ens, Departement d);
@@ -23,24 +19,12 @@ public interface IDep_Metier {
 	Collection<Souhait> getSouhaitNonValides(Departement d);
 	void validerSouhaits(Collection<Souhait> souhaits, Departement d);
 	Collection<Souhait> getSouhaits(int year, String critere, Departement d);
-<<<<<<< HEAD
-	Collection<Intervention> getAffectations(int year, Intervention i, Departement d);
-=======
-<<<<<<< HEAD
-	Collection<Intervention> getAffectations(int year, Intervention i, Departement d);
-=======
-	Collection<Intervention> getAffectations(int year, String critere, Departement d);
->>>>>>> 3d471ae124b6d4267434b2e2ca89f2237e23ae26
->>>>>>> dc9b8c6996991325a88fa8f619628ce88682ad22
+	Collection<Intervention> getAffectations(int year, Collection<String> criteres, Departement d);
 	void setAffectations(Enseignant e, Enseignement ens, Intervention a, Departement d);
 	Collection<Intervention> getInterventions(int year, Enseignant e, Departement d);
 	Collection<Enseignement> getEnseignementsDispos(Departement d);
 	Collection<Enseignement> getEnseignementsDispos(Collection<String> critere, Departement d);
-<<<<<<< HEAD
 	void publierSouhaits(Collection<Souhait> souhaits, Departement d);
-=======
-	Collection<Souhait> publierSouhaits();
->>>>>>> dc9b8c6996991325a88fa8f619628ce88682ad22
 	
 	
 }
