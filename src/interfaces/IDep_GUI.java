@@ -20,6 +20,14 @@ public interface IDep_GUI {
 	void validerSouhaits(Collection<Souhait> souhaits);
 	Collection<Souhait> getSouhaits(int year, String critere);
 	Collection<Intervention> getAffectations(int year, Intervention i);
+<<<<<<< HEAD
 	void setAffectations(Enseignant e, Enseignement ens, Intervention i);
+=======
+<<<<<<< HEAD
+	void setAffectations(Enseignant e, Enseignement ens, Intervention i);
+=======
+	void setAffectations(Enseignant e, Enseignement ens);
+>>>>>>> 3d471ae124b6d4267434b2e2ca89f2237e23ae26
+>>>>>>> dc9b8c6996991325a88fa8f619628ce88682ad22
 	Collection<Souhait> publierConflits();
 }
